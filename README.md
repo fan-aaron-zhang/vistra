@@ -1,4 +1,4 @@
-###################################### vistra #####################################################
+###################################### vistra_SRResNet ############################################
 ###################################################################################################
 #### This code was developed by Mariana Afonso, Phd student @ University of Bristol, UK, 2018 #####
 ################################## All rights reserved © ##########################################
@@ -11,36 +11,12 @@ Instructions:
 
 Quick uses (examples):
 
-- Run YUV model training
-
---trainHR=.
---trainLR=.
---validBlocks=E:\work\data\CNN\VALIDATION_JVET_HM1620_BD9bit_QP37\train_dataset\batch_blocks
---resultsFolder=E:\work\data\CNN\
---trainName=TRAINING_DB18_HM1620_BD9bit_QP37
---subName=BD_L1_Y
---blockSize=96
---ratio=1
---nlayers=16
---nepochs=200
---nepochs_GAN=0
---paramLR_INIT=0.0001
---paramLR_GAN=0.0001
---decayEpochs=100
---decayEpochsGAN=100
---paramLD=0.1
---GAN=0
---readBatch_flag=1
---inputFormat=RGB
---BN=0
---loss=L1
---interpUV=nearest
 
 - Run YUV model evaluation
 
 --mode=evaluate
---evalHR=M:\Aaron\ViSTRA\TRAINING_RESULTS\HM1620_TRAINING_DB18_9bit\REC\QP27\Aamerican-football-scene4_3840x2160_60fps_10bit_420_qp21_BD09.yuv
---evalLR=M:\Aaron\ViSTRA\TRAINING_RESULTS\HM1620_TRAINING_DB18_9bit\REC\QP27\Aamerican-football-scene4_3840x2160_60fps_10bit_420_qp21_BD09.yuv
+--evalHR=
+--evalLR=
 --testModel=0
 --ratio=1
 --nlayers=16
