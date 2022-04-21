@@ -25,3 +25,25 @@ Quick uses (examples):
 --eval_inputType=YUV
 --readBatch_flag=1
 --inputFormat=RGB
+
+Please cite our papers if you use this code for your research
+
+@article{zhang2021vistra2,
+  title={ViSTRA2: Video coding using spatial resolution and effective bit depth adaptation},
+  author={Zhang, Fan and Afonso, Mariana and Bull, David R},
+  journal={Signal Processing: Image Communication},
+  pages={116355},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{afonso2018video,
+  title={Video compression based on spatio-temporal resolution adaptation},
+  author={Afonso, Mariana and Zhang, Fan and Bull, David R},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  volume={29},
+  number={1},
+  pages={275--280},
+  year={2018},
+  publisher={IEEE}
+}
