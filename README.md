@@ -5,14 +5,14 @@
 - Install python 3.5 (I have 3.5.2) or 3.6 + libraries + Tensorflow gpu (I have 1.8.0)
 - Python dependencies: Tensorlayer, numpy, scipy, matplotlib, sklearn and imageio 
 
-### Quick uses (examples):
+### Usage
 
 
 Run YUV model evaluation
 
 --mode=evaluate
---evalHR=
---evalLR=
+--evalHR=$output yuv path$
+--evalLR=$input yuv path$
 --testModel=0
 --ratio=1
 --nlayers=16
@@ -22,6 +22,7 @@ Run YUV model evaluation
 --readBatch_flag=1
 --inputFormat=RGB
 
+All input files should use the standard file name, e.g. Campfire_3840x2160_30fps_10bit_qp22.yuv (filename_HxW_xxxfps_xbit_qpxx.yuv)
 ### Reference
 
 Please cite our papers if you use this code for your research
